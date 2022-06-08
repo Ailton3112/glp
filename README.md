@@ -1,5 +1,5 @@
 ![alt text](https://revgas.com/wp-content/uploads/2020/11/logo.png)
-# Modelo de predição 
+# Modelo de Predição
 ## Status atual 
     Atualmente está sendo feito a experimentação de setups distintos do modelo LSTM a fim de obter uma melhor perfomance da loss (conjuntos de treino e validação) sob o     notebook Experimento_01_Predicao.ipynb
 ## Dificuldades 
