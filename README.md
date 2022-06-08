@@ -1,6 +1,6 @@
 # glp
 
-# Status atual : 
+# Status atual :  
     Atualmente está sendo feito a experimentação de setups distintos do modelo LSTM a fim de obter uma melhor perfomance da loss (conjuntos de treino e validação) sob o     notebook Experimento_01_Predicao.ipynb
 # Dificuldades : 
     1. Devido ao "peso" das experimentações do modelo pretendido (crasheando)
