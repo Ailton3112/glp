@@ -8,7 +8,7 @@ glp
   - Pedidos por ano
   - Consumo por ano, mês e dia
 
-# O notebook RevGas.ipynb tem como objetivo:
+# O notebook RevGas_V01.ipynb tem como objetivo:
     Neste notebook, usa o dataset Produtos_Clientes.csv para construir um modelo de aprendizado de máquina não supervisionado que permite estimar se um determinado cliente comprará algo novamente na loja online no próximo trimestre.
 
     1.Quantos clientes online existem no conjunto de dados e qual é a sua cidade/estado de origem?
