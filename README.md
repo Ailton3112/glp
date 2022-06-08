@@ -1,8 +1,8 @@
 # glp
 
-## Status atual :  
+## Status atual 
     Atualmente está sendo feito a experimentação de setups distintos do modelo LSTM a fim de obter uma melhor perfomance da loss (conjuntos de treino e validação) sob o     notebook Experimento_01_Predicao.ipynb
-## Dificuldades : 
+## Dificuldades 
     1. Devido ao "peso" das experimentações do modelo pretendido (crasheando)
         - utilizar GPU pra que as experimentações sejam mais rápidas e eficientes
         - a GPU free quebra com duas horas de execução (?)
@@ -18,7 +18,6 @@
 
 ### O notebook RevGas_V01.ipynb tem como objetivo:
     Neste notebook, usa o dataset Produtos_Clientes.csv para construir um modelo de aprendizado de máquina não supervisionado que permite estimar se um determinado cliente comprará algo novamente na loja online no próximo trimestre.
-
     1.Quantos clientes online existem no conjunto de dados e qual é a sua cidade/estado de origem?
     2.Quais são as cidades/estados mais representadas no conjunto de dados?
     3.Calcule a receita que foi feita em cada mês e qual é a receita percentual com base nas várias cidades/estados?
