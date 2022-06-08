@@ -1,12 +1,17 @@
 ![alt text](https://revgas.com/wp-content/uploads/2020/11/logo.png)
 # Modelo de Predição
 ## Status atual 
-    Atualmente está sendo feito a experimentação de setups distintos do modelo LSTM a fim de obter uma melhor perfomance da loss (conjuntos de treino e validação) sob o     notebook Experimento_01_Predicao.ipynb
+    Atualmente está sendo feito a experimentação de setups distintos do modelo LSTM a fim de obter uma melhor perfomance da loss (conjuntos de treino e validação) sob o     notebook Experimento_01_Predicao.ipynb.
 ## Dificuldades 
     1. Devido ao "peso" das experimentações do modelo pretendido (crasheando)
         - utilizar GPU pra que as experimentações sejam mais rápidas e eficientes
         - a GPU free quebra com duas horas de execução (?)
-        
+        - os setups até agora experimentados estão apresentando underfiting (necessário experimentar mais)
+            Alguns aspectos : 1. aumentar a janela (t-n , t-4, t-3, t-2, t-1 | t )
+                              2. aumentar as épocas.
+                              3. Empilhar LSTM
+                              4 . ?
+           
 ## Sobre os notebooks         
 ### O notebook RevGas.ipynb tem como objetivo:
 -Análise Exploratória de dados de Pedidos de Revenda Gás
